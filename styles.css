@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(252, 252, 252);
+  color: rgba(21, 44, 91, 1);
+  margin: 4rem;
+}
+
+body h1 {
+  font-size: 3rem;
+}
+body p {
+  margin: 4rem;
+  line-height: 2rem;
+  font-size: 1.5rem;
+}
+
+.img {
+  margin: 2rem 0;
+  width: 80%;
+}
+
+.contact {
+  margin: 2rem;
+}
+
+/* Portrait and Landscape */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-family: "Open Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(252, 252, 252);
+    color: rgba(21, 44, 91, 1);
+    margin: 1rem;
+  }
+
+  body p {
+    margin: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  img {
+    width: 90vw;
+    margin: 2rem 0;
+  }
+}
