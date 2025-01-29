@@ -2,48 +2,245 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ZnD Merchants</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles.css" />
+    <title>ZnD | Merchants</title>
   </head>
   <body>
-    <h1>ZnD Merchants</h1>
-    <p>
-      ZnD Merchants is a dynamic and customer-focused retailer specializing in
-      high-quality, affordable clothing for individuals who value both style and
-      savings. With a keen eye for trends and a commitment to providing
-      accessible fashion, ZnD Merchants has become a trusted name for those
-      looking to update their wardrobes without breaking the bank. Our expansive
-      selection spans everything from everyday essentials to fashion-forward
-      pieces, ensuring that every customer can find something that suits their
-      personal style and budget.
-    </p>
-    <p>
-      ZnD Merchants, we believe that fashion should be inclusive and attainable
-      for everyone. Whether you're looking for sleek and professional workwear,
-      casual staples for weekend relaxation, or vibrant accessories to elevate
-      your outfit, we offer a wide variety of options designed to meet your
-      needs. Our clothing collection features a carefully curated range of
-      sizes, cuts, and colors to ensure that everyone, no matter their body type
-      or style preferences, can find something that fits just right. What sets
-      us apart is our unwavering commitment to affordability without
-      compromising quality. Our team works tirelessly to source premium fabrics
-      and collaborate with skilled manufacturers to deliver durable,
-      comfortable, and stylish clothing at prices that won’t strain your budget.
-    </p>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">ZnD</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#catalogue">CATALOGUE</a></li>
+        <li><a href="#fashion">FASHION</a></li>
+        <li><a href="#favourite">FAVOURITE</a></li>
+        <li><a href="#lifestyle">LIFESTYLE</a></li>
+        <li>
+          <button class="btn">SIGN UP</button>
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="section__container header__container">
+        <div class="header__content">
+          <h1>
+            <span>LET'S</span>
+            <br />
+            EXPLORE
+            <br />
+            <span>UNIQUE</span>
+            <br />
+            CLOTHES.
+          </h1>
+          <p>Live for influential and innovative fashion!</p>
+          <div class="header__btns">
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+        <div class="header__image">
+          <img src="assets/header.png" alt="header" />
+        </div>
+      </div>
+    </header>
 
-    <img class="img" src="./assets/image (1).jpg" alt="khet" />
-    <img class="img" src="./assets/image (2).jpg" alt="khet" />
-    <img class="img" src="./assets/image (3).jpg" alt="khet" />
+    <section class="banner">
+      <div class="banner__container">
+        <img src="assets/banner-1.png" alt="banner" />
+        <img src="assets/banner-2.png" alt="banner" />
+        <img src="assets/banner-3.png" alt="banner" />
+        <img src="assets/banner-4.png" alt="banner" />
+        <img src="assets/banner-5.png" alt="banner" />
+        <img src="assets/banner-6.png" alt="banner" />
+        <img src="assets/banner-7.png" alt="banner" />
+        <img src="assets/banner-8.png" alt="banner" />
+      </div>
+    </section>
 
-    <div class="contact">
-      <h2>ZnD Merchants</h2>
-      <h2>Mobile - +91-76965-07777,0175-5016005</h2>
-      <h2>EmailId - zndmerchants@gmail.com</h2>
-      <h2>Address - SCO: 96,II Floor,New Leela Bhawan Market,Patiala</h2>
-      <h2>Punjab,India</h2>
-      <h2>Pincode - 147001</h2>
-    </div>
+    <section class="section__container arrival__container" id="catalogue">
+      <h2 class="section__header">NEW ARRIVALS</h2>
+      <div class="arrival__grid">
+        <div class="arrival__card">
+          <div class="arrival__image">
+            <img src="assets/arrival-1.jpg" alt="arrival" />
+          </div>
+          <div class="arrival__content">
+            <div>
+              <h4>Hoodies & Sweatshirts</h4>
+              <a href="#">Explore Now</a>
+            </div>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="arrival__card">
+          <div class="arrival__image">
+            <img src="assets/arrival-2.jpg" alt="arrival" />
+          </div>
+          <div class="arrival__content">
+            <div>
+              <h4>Coats & Parkas</h4>
+              <a href="#">Explore Now</a>
+            </div>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="arrival__card">
+          <div class="arrival__image">
+            <img src="assets/arrival-3.jpg" alt="arrival" />
+          </div>
+          <div class="arrival__content">
+            <div>
+              <h4>Tees & T-Shirt</h4>
+              <a href="#">Explore Now</a>
+            </div>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sale" id="fashion">
+      <div class="section__container sale__container">
+        <div class="sale__image">
+          <img src="assets/sale.png" alt="sale" />
+        </div>
+        <div class="sale__content">
+          <h2><span>PAYDAY</span><br />SALE NOW</h2>
+          <p>
+            Spend minimal ₹1500 get 30% off voucher code for your next purchase
+          </p>
+          <h4>1 Jan - 10 Aug 2025</h4>
+          <p>*Terms and conditions apply</p>
+          <div class="sale__btn">
+            <button class="btn">Shop Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container favourite__container" id="favourite">
+      <h2 class="section__header">YOUNG'S FAVOURITE</h2>
+      <div class="favourite__grid">
+        <div class="favourite__card">
+          <div class="favourite__image">
+            <img src="assets/favourite-1.jpg" alt="favourite" />
+          </div>
+          <div class="favourite__content">
+            <div>
+              <h4>Trending on Instagram</h4>
+              <a href="#">Explore Now</a>
+            </div>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <div class="favourite__card">
+          <div class="favourite__image">
+            <img src="assets/favourite-2.jpg" alt="favourite" />
+          </div>
+          <div class="favourite__content">
+            <div>
+              <h4>All under ₹1000</h4>
+              <a href="#">Explore Now</a>
+            </div>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container download__container" id="lifestyle">
+      <div class="download__image">
+        <img src="assets/download.png" alt="download" />
+      </div>
+      <div class="download__content">
+        <h2 class="section__header">OUR MOBILE APP COMING SOON!!!</h2>
+        <p>
+          Our mobile app links on App store And Play Store will be updated here
+        </p>
+        <div class="download__links">
+          <a href="#">
+            <img src="assets/apple.png" alt="apple" />
+          </a>
+          <a href="#">
+            <img src="assets/google.png" alt="google" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="promo">
+      <div class="section__container promo__container">
+        <h2 class="section__header">
+          JOIN ZnD SHOPPING COMMUNITY TO GET MONTHLY PROMO
+        </h2>
+        <p>Type your email down below and be young wild generation</p>
+        <form action="/">
+          <input type="text" placeholder="Add your email here" />
+          <button class="btn">SEND</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="#">ZnD</a>
+          </div>
+          <p>Complete your style with awesome clothes from us.</p>
+          <!-- <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul> -->
+        </div>
+        <div class="footer__col">
+          <h4>Company</h4>
+          <ul class="footer__links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer__col footer__contact">
+          <h4>Contact Us</h4>
+          <ul class="footer__links">
+            <li><a href="#">Mobile - +91-76965-07777,0175-5016005</a></li>
+            <li><a href="#">EmailId - zndmerchants@gmail.com</a></li>
+            <li>
+              <a href="#"
+                >Address - SCO: 96,II Floor,New Leela Bhawan Market,Patiala</a
+              >
+            </li>
+            <li><a href="#">Punjab,India</a></li>
+            <li><a href="#">Pincode - 147001</a></li>
+          </ul>
+        </div>
+       
+      <!-- <div class="footer__bar">
+        Copyright © 2025 Znd Merchants. All rights reserved.
+      </div> -->
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
   </body>
 </html>
